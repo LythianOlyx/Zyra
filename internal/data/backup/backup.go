@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/zyra-framework/zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/data"
 )
 
 // DestinationStorage is an interface for writing database backup artifacts (e.g. S3, local disk, custom stream).

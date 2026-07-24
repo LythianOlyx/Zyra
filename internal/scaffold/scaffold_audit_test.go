@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/audit"
+	"github.com/LythianOlyx/Zyra/internal/audit"
 )
 
 // TestAudit_AllTenTemplatesPassAudit verifies that every template created via

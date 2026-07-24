@@ -19,10 +19,10 @@ import (
 
 	"go.uber.org/zap/zaptest"
 
-	"github.com/zyra-framework/zyra/internal/render"
-	"github.com/zyra-framework/zyra/internal/render/bundler"
-	renderjs "github.com/zyra-framework/zyra/internal/render/goja"
-	"github.com/zyra-framework/zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/internal/render"
+	"github.com/LythianOlyx/Zyra/internal/render/bundler"
+	renderjs "github.com/LythianOlyx/Zyra/internal/render/goja"
+	"github.com/LythianOlyx/Zyra/internal/router"
 )
 
 // ssrBundleSource is a hand-written stand-in for what `zyra build` would

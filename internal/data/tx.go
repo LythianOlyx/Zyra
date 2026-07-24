@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/zyra-framework/zyra/internal/data/nplusone"
+	"github.com/LythianOlyx/Zyra/internal/data/nplusone"
 )
 
 // Tx wraps sqlx.Tx with Zyra context tracking (N+1 query detection, tenant awareness).

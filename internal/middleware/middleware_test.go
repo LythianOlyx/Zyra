@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/middleware"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/middleware"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func TestCSRFMiddleware(t *testing.T) {

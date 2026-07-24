@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/action"
-	"github.com/zyra-framework/zyra/internal/router"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/action"
+	"github.com/LythianOlyx/Zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func TestServer_ActionDispatching(t *testing.T) {

@@ -28,8 +28,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/zyra-framework/zyra/internal/router"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // AssetManifest resolves the client-side script URL(s) for a page route.

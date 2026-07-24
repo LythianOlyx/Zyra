@@ -11,11 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/zyra-framework/zyra/internal/action"
-	"github.com/zyra-framework/zyra/internal/middleware"
-	"github.com/zyra-framework/zyra/internal/render"
-	"github.com/zyra-framework/zyra/internal/router"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/action"
+	"github.com/LythianOlyx/Zyra/internal/middleware"
+	"github.com/LythianOlyx/Zyra/internal/render"
+	"github.com/LythianOlyx/Zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // Server is Zyra's primary fullstack HTTP server.

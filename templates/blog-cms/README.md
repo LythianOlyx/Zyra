@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `blog-cms` template — a content-focused blog with SSG pre-rendering (`revalidate: 3600`), automatic RSS feed (`/rss.xml`), sitemap generation, and syntax-highlighted code blocks.
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `blog-cms` template — a content-focused blog with SSG pre-rendering (`revalidate: 3600`), automatic RSS feed (`/rss.xml`), sitemap generation, and syntax-highlighted code blocks.
 
 ## Getting started
 

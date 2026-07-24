@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `dashboard-admin` template — an internal tools and admin panel starter with server-side pagination/filtering/sorting, CRUD actions with validation, and granular RBAC.
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `dashboard-admin` template — an internal tools and admin panel starter with server-side pagination/filtering/sorting, CRUD actions with validation, and granular RBAC.
 
 ## Getting started
 

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // Message represents a single chat message.

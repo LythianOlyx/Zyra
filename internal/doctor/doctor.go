@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zyra-framework/zyra/internal/config"
-	"github.com/zyra-framework/zyra/internal/data"
-	"github.com/zyra-framework/zyra/internal/render/tailwind"
+	"github.com/LythianOlyx/Zyra/internal/config"
+	"github.com/LythianOlyx/Zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/render/tailwind"
 )
 
 // Status represents the health status of a diagnostic check.

@@ -38,7 +38,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // ManagerOptions configures a Manager beyond the zyra.TailwindConfig

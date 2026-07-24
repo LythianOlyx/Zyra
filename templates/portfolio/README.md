@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `portfolio` template — a simple personal portfolio site with a contact form demonstrating the complete end-to-end flow: React Page → Go Action RPC → Email (`zyra.Mail`).
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `portfolio` template — a simple personal portfolio site with a contact form demonstrating the complete end-to-end flow: React Page → Go Action RPC → Email (`zyra.Mail`).
 
 ## Getting started
 

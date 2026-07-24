@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // GenerateCSRFToken generates a 32-byte secure random hex string.

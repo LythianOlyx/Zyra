@@ -12,7 +12,7 @@ import (
 // frameworkRoot returns the absolute path to the Zyra framework module
 // root (this repository), so tests can generate a project with a `replace`
 // directive pointing at the local checkout instead of a published module
-// version — required since github.com/zyra-framework/zyra is not
+// version — required since github.com/LythianOlyx/Zyra is not
 // published to a real module proxy yet.
 func frameworkRoot(t *testing.T) string {
 	t.Helper()
@@ -97,7 +97,7 @@ func TestGenerate_BlankTemplateProducesExpectedFiles(t *testing.T) {
 	if !strings.Contains(string(goMod), "module "+res.ModulePath) {
 		t.Errorf("go.mod missing expected module line, got:\n%s", goMod)
 	}
-	if !strings.Contains(string(goMod), "replace github.com/zyra-framework/zyra =>") {
+	if !strings.Contains(string(goMod), "replace github.com/LythianOlyx/Zyra =>") {
 		t.Errorf("go.mod missing expected replace directive, got:\n%s", goMod)
 	}
 

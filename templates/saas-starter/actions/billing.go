@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // CreateCheckoutSessionInput selects the plan the current user wants to

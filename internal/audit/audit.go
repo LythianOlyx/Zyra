@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zyra-framework/zyra/internal/config"
-	"github.com/zyra-framework/zyra/internal/data"
-	"github.com/zyra-framework/zyra/internal/data/migration"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/config"
+	"github.com/LythianOlyx/Zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/data/migration"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // Severity indicates the risk level of an audit finding.

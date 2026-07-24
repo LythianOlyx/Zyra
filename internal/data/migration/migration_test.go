@@ -5,8 +5,8 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/zyra-framework/zyra/internal/data"
-	"github.com/zyra-framework/zyra/internal/data/migration"
+	"github.com/LythianOlyx/Zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/data/migration"
 )
 
 func setupTestDB(t *testing.T) *data.DB {

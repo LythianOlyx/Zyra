@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/erroroverlay"
+	"github.com/LythianOlyx/Zyra/internal/erroroverlay"
 )
 
 func TestFormatAIPrompt(t *testing.T) {

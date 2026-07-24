@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `ecommerce` template — a small-to-medium storefront with a product catalog, client cart validation via Go Actions, mock Stripe checkout, admin CRUD, and a mock webhook listener.
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `ecommerce` template — a small-to-medium storefront with a product catalog, client cart validation via Go Actions, mock Stripe checkout, admin CRUD, and a mock webhook listener.
 
 ## Getting started
 

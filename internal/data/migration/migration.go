@@ -19,7 +19,7 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/sqlite"
 	"github.com/golang-migrate/migrate/v4/source/iofs"
 
-	"github.com/zyra-framework/zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/data"
 )
 
 var (

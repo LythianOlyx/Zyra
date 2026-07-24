@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/config"
+	"github.com/LythianOlyx/Zyra/internal/config"
 )
 
 func TestLoader_DefaultConfig(t *testing.T) {

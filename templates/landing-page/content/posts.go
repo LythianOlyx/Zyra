@@ -12,7 +12,7 @@
 // route per slug) would need to change.
 package content
 
-import "github.com/zyra-framework/zyra/pkg/zyra"
+import "github.com/LythianOlyx/Zyra/pkg/zyra"
 
 // Post is a single blog post.
 type Post struct {

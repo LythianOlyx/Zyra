@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/zyra-framework/zyra/templates"
+	"github.com/LythianOlyx/Zyra/templates"
 )
 
 func TestTemplates_EmbedFSContainsAllTenTemplates(t *testing.T) {

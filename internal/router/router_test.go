@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/internal/router"
 )
 
 func TestRouter_Matching(t *testing.T) {

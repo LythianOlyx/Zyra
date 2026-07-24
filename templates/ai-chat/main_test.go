@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func TestAiChat_SendMessageAndGetHistory(t *testing.T) {

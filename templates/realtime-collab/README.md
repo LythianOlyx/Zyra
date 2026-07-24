@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `realtime-collab` template — a real-time collaborative Kanban board showcasing SSE streaming, online presence tracking, optimistic updates, and `zyra.Broadcast`.
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `realtime-collab` template — a real-time collaborative Kanban board showcasing SSE streaming, online presence tracking, optimistic updates, and `zyra.Broadcast`.
 
 ## Getting started
 

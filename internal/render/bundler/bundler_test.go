@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/render/bundler"
+	"github.com/LythianOlyx/Zyra/internal/render/bundler"
 )
 
 // writeFile writes content to a new file at path, creating any parent

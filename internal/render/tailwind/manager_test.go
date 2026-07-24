@@ -18,8 +18,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/zyra-framework/zyra/internal/render/tailwind"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/render/tailwind"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 const fakeBinaryContent = "#!/bin/sh\necho fake-tailwind\n"

@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func TestCreateCheckoutSession_RequiresLogin(t *testing.T) {

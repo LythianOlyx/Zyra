@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // SecurityHeaders returns an HTTP middleware that injects security headers.

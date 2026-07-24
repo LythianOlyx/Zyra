@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zyra-framework/zyra/examples/saas-starter/actions"
-	"github.com/zyra-framework/zyra/examples/saas-starter/jobs"
-	"github.com/zyra-framework/zyra/pkg/zyra"
-	"github.com/zyra-framework/zyra/pkg/zyra/app"
-	"github.com/zyra-framework/zyra/pkg/zyra/plugins/analytics"
-	"github.com/zyra-framework/zyra/pkg/zyra/plugins/resend"
-	"github.com/zyra-framework/zyra/pkg/zyra/plugins/sentry"
-	"github.com/zyra-framework/zyra/pkg/zyra/plugins/stripe"
+	"github.com/LythianOlyx/Zyra/examples/saas-starter/actions"
+	"github.com/LythianOlyx/Zyra/examples/saas-starter/jobs"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/app"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/plugins/analytics"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/plugins/resend"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/plugins/sentry"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/plugins/stripe"
 )
 
 const mockSSRBundle = `

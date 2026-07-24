@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zyra-framework/zyra/examples/mvt-task-manager/actions"
-	"github.com/zyra-framework/zyra/internal/action"
-	"github.com/zyra-framework/zyra/internal/render"
-	"github.com/zyra-framework/zyra/internal/render/goja"
-	"github.com/zyra-framework/zyra/internal/router"
-	"github.com/zyra-framework/zyra/internal/server"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/examples/mvt-task-manager/actions"
+	"github.com/LythianOlyx/Zyra/internal/action"
+	"github.com/LythianOlyx/Zyra/internal/render"
+	"github.com/LythianOlyx/Zyra/internal/render/goja"
+	"github.com/LythianOlyx/Zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/internal/server"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func setupTestServer(t *testing.T) *server.Server {

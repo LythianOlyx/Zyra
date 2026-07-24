@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `api-only` template — a headless backend API with Go Actions RPC, Bearer token authentication, input validation, and an OpenAPI 3.0 specification (`openapi.yaml`).
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `api-only` template — a headless backend API with Go Actions RPC, Bearer token authentication, input validation, and an OpenAPI 3.0 specification (`openapi.yaml`).
 
 ## Getting started
 

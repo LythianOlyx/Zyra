@@ -1,6 +1,6 @@
 // Package scaffold implements `zyra create`'s project generation: listing
 // the 10 official starter templates (embedded into the binary via
-// github.com/zyra-framework/zyra/templates), rendering their placeholder
+// github.com/LythianOlyx/Zyra/templates), rendering their placeholder
 // tokens, copying Zyra's frontend runtime alongside them, and writing a
 // standalone go.mod so the generated project is an independent Go module
 // that only ever imports the public pkg/zyra and pkg/zyra/app API — never

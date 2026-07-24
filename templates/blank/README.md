@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `blank` starter template — the minimal
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `blank` starter template — the minimal
 starting point for learning Zyra's core concepts (file-based routing, Go Actions RPC, and the three rendering modes)
 with zero extra noise.
 

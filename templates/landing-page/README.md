@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `landing-page` template — an SEO-first marketing site with pre-rendered SSG pages, pricing tables, testimonials, FAQ, blog, and contact form handling.
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `landing-page` template — an SEO-first marketing site with pre-rendered SSG pages, pricing tables, testimonials, FAQ, blog, and contact form handling.
 
 ## Getting started
 

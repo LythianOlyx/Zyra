@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `saas-starter` template — the most
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `saas-starter` template — the most
 complete official starter: authentication, a billing placeholder, an RBAC-gated dashboard, and an SEO-first
 marketing landing page.
 

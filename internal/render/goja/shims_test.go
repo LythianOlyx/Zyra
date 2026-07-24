@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	renderjs "github.com/zyra-framework/zyra/internal/render/goja"
+	renderjs "github.com/LythianOlyx/Zyra/internal/render/goja"
 )
 
 const shimCheckBundle = `

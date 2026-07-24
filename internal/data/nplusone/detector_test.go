@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/data/nplusone"
+	"github.com/LythianOlyx/Zyra/internal/data/nplusone"
 	"go.uber.org/zap/zaptest"
 )
 

@@ -1,4 +1,4 @@
-module github.com/zyra-framework/zyra
+module github.com/LythianOlyx/Zyra
 
 go 1.25.0
 

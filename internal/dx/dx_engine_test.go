@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zyra-framework/zyra/internal/dx"
+	"github.com/LythianOlyx/Zyra/internal/dx"
 )
 
 func TestDXEngine(t *testing.T) {

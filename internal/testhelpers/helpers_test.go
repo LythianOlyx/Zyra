@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/testhelpers"
+	"github.com/LythianOlyx/Zyra/internal/testhelpers"
 )
 
 func TestTestHelpers(t *testing.T) {

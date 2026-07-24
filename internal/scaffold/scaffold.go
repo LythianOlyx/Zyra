@@ -6,11 +6,11 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	clientruntime "github.com/zyra-framework/zyra/runtime/client"
-	"github.com/zyra-framework/zyra/templates"
+	clientruntime "github.com/LythianOlyx/Zyra/runtime/client"
+	"github.com/LythianOlyx/Zyra/templates"
 )
 
-// DefaultFrameworkVersion is the `github.com/zyra-framework/zyra` module
+// DefaultFrameworkVersion is the `github.com/LythianOlyx/Zyra` module
 // version requirement written into a generated project's go.mod when
 // Options.FrameworkVersion is left empty.
 const DefaultFrameworkVersion = "v1.0.0-alpha.1"
@@ -42,11 +42,11 @@ type Options struct {
 	// ModulePath is the Go module path written to go.mod. Defaults to a
 	// sanitized version of AppName when empty.
 	ModulePath string
-	// FrameworkVersion is the `github.com/zyra-framework/zyra` version
+	// FrameworkVersion is the `github.com/LythianOlyx/Zyra` version
 	// requirement written to go.mod. Defaults to DefaultFrameworkVersion.
 	FrameworkVersion string
 	// FrameworkReplacePath, when non-empty, adds a
-	// `replace github.com/zyra-framework/zyra => <path>` directive to the
+	// `replace github.com/LythianOlyx/Zyra => <path>` directive to the
 	// generated go.mod. This exists purely for local framework development
 	// and this repository's own CI template validation (see
 	// scaffold_test.go) — end users creating real projects never set this.
@@ -124,10 +124,10 @@ func Generate(opts Options) (*Result, error) {
 }
 
 func writeGoMod(opts Options) error {
-	content := fmt.Sprintf("module %s\n\ngo 1.23\n\nrequire github.com/zyra-framework/zyra %s\n",
+	content := fmt.Sprintf("module %s\n\ngo 1.23\n\nrequire github.com/LythianOlyx/Zyra %s\n",
 		opts.ModulePath, opts.FrameworkVersion)
 	if opts.FrameworkReplacePath != "" {
-		content += fmt.Sprintf("\nreplace github.com/zyra-framework/zyra => %s\n", opts.FrameworkReplacePath)
+		content += fmt.Sprintf("\nreplace github.com/LythianOlyx/Zyra => %s\n", opts.FrameworkReplacePath)
 	}
 	return os.WriteFile(filepath.Join(opts.Dest, "go.mod"), []byte(content), 0o644)
 }

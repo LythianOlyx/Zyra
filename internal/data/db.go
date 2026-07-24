@@ -11,7 +11,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	_ "modernc.org/sqlite"
 
-	"github.com/zyra-framework/zyra/internal/data/nplusone"
+	"github.com/LythianOlyx/Zyra/internal/data/nplusone"
 )
 
 // DatabaseConfig specifies database driver and connection info for internal/data.

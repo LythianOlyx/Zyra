@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 type Project struct {

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/data"
-	"github.com/zyra-framework/zyra/internal/data/backup"
+	"github.com/LythianOlyx/Zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/data/backup"
 )
 
 func TestSQLiteOnlineBackup(t *testing.T) {

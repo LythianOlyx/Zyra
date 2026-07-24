@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/data"
+	"github.com/LythianOlyx/Zyra/internal/data"
 )
 
 type User struct {

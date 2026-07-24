@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"testing"
 
-	clientruntime "github.com/zyra-framework/zyra/runtime/client"
+	clientruntime "github.com/LythianOlyx/Zyra/runtime/client"
 )
 
 func TestClientRuntime_EmbedFS(t *testing.T) {

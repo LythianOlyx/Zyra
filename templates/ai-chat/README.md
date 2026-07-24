@@ -1,6 +1,6 @@
 # [[.AppName]]
 
-A [Zyra](https://github.com/zyra-framework/zyra) project generated from the `ai-chat` template — a real-time LLM chat application with streaming responses via SSE (`zyra.Stream`) and conversation history management.
+A [Zyra](https://github.com/LythianOlyx/Zyra) project generated from the `ai-chat` template — a real-time LLM chat application with streaming responses via SSE (`zyra.Stream`) and conversation history management.
 
 ## Getting started
 

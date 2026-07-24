@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/ui"
+	"github.com/LythianOlyx/Zyra/internal/ui"
 )
 
 func TestRegistry_ContainsAll40PlusComponents(t *testing.T) {

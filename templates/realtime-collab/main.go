@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
-	"github.com/zyra-framework/zyra/pkg/zyra/app"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/app"
 
 	"[[.ModulePath]]/actions"
 )

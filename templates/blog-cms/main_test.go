@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func TestBlogCms_SSGAndRSS(t *testing.T) {

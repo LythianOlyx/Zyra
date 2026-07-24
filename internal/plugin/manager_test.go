@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/plugin"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/plugin"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 type mockPlugin struct {

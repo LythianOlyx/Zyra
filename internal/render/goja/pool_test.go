@@ -11,8 +11,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	renderjs "github.com/zyra-framework/zyra/internal/render/goja"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	renderjs "github.com/LythianOlyx/Zyra/internal/render/goja"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 const okBundle = `

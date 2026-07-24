@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // OfficialPlugins lists the short names of Zyra's 4 official plugins.
@@ -170,7 +170,7 @@ func AddToConfig(dir, pluginName string) (*PluginInfo, error) {
 	pkgName := cleanName
 	official := IsOfficial(cleanName)
 	if official {
-		pkgName = "github.com/zyra-framework/zyra/pkg/zyra/plugins/" + cleanName
+		pkgName = "github.com/LythianOlyx/Zyra/pkg/zyra/plugins/" + cleanName
 	}
 
 	return &PluginInfo{
@@ -209,7 +209,7 @@ func ListFromConfig(dir string) ([]PluginInfo, error) {
 				off := IsOfficial(clean)
 				pkgName := clean
 				if off {
-					pkgName = "github.com/zyra-framework/zyra/pkg/zyra/plugins/" + clean
+					pkgName = "github.com/LythianOlyx/Zyra/pkg/zyra/plugins/" + clean
 				}
 				result = append(result, PluginInfo{
 					Name:     clean,

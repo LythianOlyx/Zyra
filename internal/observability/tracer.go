@@ -7,7 +7,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 )
 
-const tracerName = "github.com/zyra-framework/zyra"
+const tracerName = "github.com/LythianOlyx/Zyra"
 
 // Tracer returns the global OpenTelemetry tracer for Zyra.
 func Tracer() trace.Tracer {

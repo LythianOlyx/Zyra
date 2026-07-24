@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/render/tailwind"
+	"github.com/LythianOlyx/Zyra/internal/render/tailwind"
 )
 
 func TestResolveLatestVersion_Success(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/observability"
+	"github.com/LythianOlyx/Zyra/internal/observability"
 )
 
 func TestInitLogger(t *testing.T) {

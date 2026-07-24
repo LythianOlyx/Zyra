@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/action"
-	"github.com/zyra-framework/zyra/internal/render/goja"
-	"github.com/zyra-framework/zyra/pkg/zyra"
-	"github.com/zyra-framework/zyra/pkg/zyra/app"
+	"github.com/LythianOlyx/Zyra/internal/action"
+	"github.com/LythianOlyx/Zyra/internal/render/goja"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra/app"
 )
 
 const benchmarkSSRBundle = `

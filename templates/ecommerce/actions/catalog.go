@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // Product represents an item in the store.

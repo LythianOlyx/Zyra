@@ -27,7 +27,7 @@ import (
 	"github.com/dop251/goja"
 	"go.uber.org/zap"
 
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // EntryFunctionName is the default global function name an SSR bundle must

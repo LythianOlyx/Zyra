@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/codegen"
+	"github.com/LythianOlyx/Zyra/internal/codegen"
 )
 
 const sampleGoCode = `

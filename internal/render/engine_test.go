@@ -16,9 +16,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/zyra-framework/zyra/internal/render"
-	"github.com/zyra-framework/zyra/internal/router"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/internal/render"
+	"github.com/LythianOlyx/Zyra/internal/router"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 // fakeRenderer is a minimal zyra.SSRRenderer test double that counts calls

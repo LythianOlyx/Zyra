@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zyra-framework/zyra/examples/saas-starter/actions"
-	"github.com/zyra-framework/zyra/pkg/zyra"
+	"github.com/LythianOlyx/Zyra/examples/saas-starter/actions"
+	"github.com/LythianOlyx/Zyra/pkg/zyra"
 )
 
 func TestCreateCheckoutSession_Unauthenticated(t *testing.T) {

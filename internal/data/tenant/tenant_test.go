@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zyra-framework/zyra/internal/data/tenant"
+	"github.com/LythianOlyx/Zyra/internal/data/tenant"
 )
 
 func TestTenantContext(t *testing.T) {
