@@ -1,0 +1,18 @@
+{
+  "env": "development",
+  "port": 3000,
+  "database": {
+    "driver": "sqlite",
+    "url": "tasks.db"
+  },
+  "security": {
+    "csrf": {
+      "enabled": true
+    },
+    "rateLimit": {
+      "enabled": true,
+      "requests": 100,
+      "window": "1m"
+    }
+  }
+}

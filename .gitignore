@@ -1,0 +1,26 @@
+# Binaries and executables
+zyra
+*.exe
+*.exe.log
+*.dll
+*.so
+*.dylib
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build and dist outputs
+dist/
+build/
+tmp/
+
+# Environment files
+.env
+.env.local
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/

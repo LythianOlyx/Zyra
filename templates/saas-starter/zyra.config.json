@@ -1,0 +1,20 @@
+{
+  "env": "development",
+  "port": 3000,
+  "database": {
+    "driver": "[[.DatabaseDriver]]",
+    "url": "[[.DatabaseURL]]"
+  },
+  "security": {
+    "csrf": { "enabled": true },
+    "rateLimit": { "enabled": true, "requests": 100, "window": "1m" },
+    "securityHeader": { "enabled": true, "frameOptions": "DENY" }
+  },
+  "auth": {
+    "strategy": "[[.AuthStrategy]]"
+  },
+  "seo": {
+    "siteUrl": "http://localhost:3000",
+    "generateSitemap": true
+  }
+}

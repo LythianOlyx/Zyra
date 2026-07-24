@@ -1,0 +1,6 @@
+/app
+/dist
+/*.db
+/*.db-journal
+.env
+storage/

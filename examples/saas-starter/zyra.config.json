@@ -1,0 +1,53 @@
+{
+  "name": "zyra-saas-starter",
+  "env": "production",
+  "port": 8080,
+  "database": {
+    "driver": "sqlite",
+    "url": "saas.db",
+    "maxOpenConns": 10,
+    "maxIdleConns": 5,
+    "connMaxLifetime": "1h"
+  },
+  "security": {
+    "csrf": {
+      "enabled": true,
+      "cookieName": "_zyra_csrf",
+      "headerName": "X-CSRF-Token"
+    },
+    "rateLimit": {
+      "enabled": true,
+      "requestsPerMinute": 120,
+      "burst": 30
+    },
+    "securityHeader": {
+      "enabled": true,
+      "hsts": true,
+      "contentSecurityPolicy": "default-src 'self'"
+    }
+  },
+  "auth": {
+    "jwtSecret": "production-secret-must-be-at-least-32-chars-long",
+    "sessionDuration": "24h",
+    "totpIssuer": "ZyraSaaS"
+  },
+  "observability": {
+    "metricsEnabled": true,
+    "tracingEnabled": true,
+    "healthCheckPath": "/healthz"
+  },
+  "plugins": {
+    "stripe": {
+      "apiKey": "sk_test_mock_key_12345"
+    },
+    "resend": {
+      "apiKey": "re_mock_key_12345"
+    },
+    "sentry": {
+      "dsn": "https://mock@sentry.io/12345"
+    },
+    "analytics": {
+      "trackingId": "UA-123456"
+    }
+  }
+}
