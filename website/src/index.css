@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0a0d14] text-slate-200 font-sans antialiased selection:bg-zyra-500 selection:text-black;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0d14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f293d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a344a;
+}
+
+/* Code block highlight overrides */
+pre code.hljs {
+  padding: 1.25rem;
+  background: #0d111a;
+  border-radius: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.hljs-keyword, .hljs-selector-tag, .hljs-subst {
+  color: #22c55e;
+  font-weight: 600;
+}
+.hljs-string, .hljs-title, .hljs-section, .hljs-attribute, .hljs-literal, .hljs-template-tag, .hljs-template-variable, .hljs-type, .hljs-addition {
+  color: #38bdf8;
+}
+.hljs-comment, .hljs-quote, .hljs-deletion, .hljs-meta {
+  color: #64748b;
+  font-style: italic;
+}
+.hljs-function .hljs-title, .hljs-title.function_ {
+  color: #a855f7;
+}
+
+/* Markdown typography extensions */
+.prose-zyra {
+  color: #cbd5e1;
+}
+.prose-zyra h1 {
+  @apply text-3xl font-extrabold text-white mb-4 mt-6 border-b border-slate-800 pb-3;
+}
+.prose-zyra h2 {
+  @apply text-2xl font-bold text-white mb-3 mt-8 border-b border-slate-800/60 pb-2;
+}
+.prose-zyra h3 {
+  @apply text-xl font-semibold text-slate-100 mb-2 mt-6;
+}
+.prose-zyra p {
+  @apply text-slate-300 mb-4 leading-relaxed;
+}
+.prose-zyra ul {
+  @apply list-disc list-inside mb-4 space-y-1 text-slate-300;
+}
+.prose-zyra ol {
+  @apply list-decimal list-inside mb-4 space-y-1 text-slate-300;
+}
+.prose-zyra code:not(pre code) {
+  @apply bg-slate-900 text-zyra-400 px-1.5 py-0.5 rounded font-mono text-sm border border-slate-800;
+}
+.prose-zyra pre {
+  @apply my-6 rounded-xl overflow-hidden border border-slate-800 bg-[#0d111a];
+}
+.prose-zyra table {
+  @apply w-full my-6 border-collapse text-left text-sm;
+}
+.prose-zyra th {
+  @apply bg-slate-900 text-slate-200 font-semibold p-3 border border-slate-800;
+}
+.prose-zyra td {
+  @apply p-3 border border-slate-800/80 text-slate-300;
+}
+.prose-zyra blockquote {
+  @apply border-l-4 border-zyra-500 pl-4 py-1 my-4 bg-zyra-950/20 text-slate-300 italic rounded-r;
+}
+.prose-zyra a {
+  @apply text-zyra-400 hover:text-zyra-300 underline underline-offset-4 transition-colors;
+}

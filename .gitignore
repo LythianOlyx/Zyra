@@ -15,6 +15,7 @@ zyra
 dist/
 build/
 tmp/
+node_modules/
 
 # Environment files
 .env
